@@ -1,4 +1,7 @@
-import { Component, Types, World, System } from "ecsy";
+import ECSY from "ecsy";
+import ECS from "ent-comp";
+
+const { Component, Types, World, System } = ECS;
 
 class Position extends Component {
   static schema = {
